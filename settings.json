@@ -6,27 +6,52 @@
                 {
                     "scope": "source.python",
                     "settings": {
-                        "foreground": "#000000bb"
+                        "foreground": "#005abae2"
                     }
                 },
                 {
                     "scope": "entity.name.function",
                     "settings": {
-                        "foreground": "#f58300"
+                        "foreground": "#f57200"
                     }
                 },
                 {
                     "scope": "support.function.magic",
                     "settings": {
-                        "foreground": "#f58300",
+                        "foreground": "#f57200",
                         "fontStyle": "italic"
                     }
                 },
                 {
                     "scope": "variable.parameter.function",
                     "settings": {
-                        "foreground": "#003fd1e2",
+                        "foreground": "#000000e2",
                         "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "variable.parameter.function-call",
+                    "settings": {
+                        "foreground": "#000000e2",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "variable.other.readwrite",
+                    "settings": {
+                        "foreground": "#000000e2",
+                    }
+                },
+                {
+                    "scope": "variable.other.constant",
+                    "settings": {
+                        "foreground": "#458900e2",
+                    }
+                },
+                {
+                    "scope": "variable.other.property",
+                    "settings": {
+                        "foreground": "#003fd1e2",
                     }
                 },
                 {
@@ -85,6 +110,12 @@
                     }
                 },
                 {
+                    "scope": "constant.numeric.dec.python",
+                    "settings": {
+                        "foreground": "#ad0c0c",
+                    }
+                },
+                {
                     "scope": "keyword.codetag.notation.python",
                     "settings": {
                         "foreground": "#ad0c0c",
@@ -104,5 +135,6 @@
                 },
             ]
         }
-    }        
+    },
+    "workbench.colorTheme": "Solarized Light"
 }
