@@ -17,3 +17,8 @@ In the `~/.zshrc` file swap in the plugins by exchanging the plugin line with:
 ```bash
 plugins=(git sudo copypath zsh-autosuggestions zsh-syntax-highlighting)
 ```
+
+
+## VS Code
+
+Copy `settings.json` to `~/.config/Code/User/settings.json`.
