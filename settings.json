@@ -1,24 +1,39 @@
 {
     "editor.bracketPairColorization.enabled": false,
+    "editor.semanticHighlighting.enabled": false,
     "editor.tokenColorCustomizations": {
         "[Solarized Light]":{
             "textMateRules": [
                 {
                     "scope": "source.python",
                     "settings": {
-                        "foreground": "#005abae2"
+                        "foreground": "#000000e2"
                     }
                 },
                 {
                     "scope": "entity.name.function",
                     "settings": {
-                        "foreground": "#f57200"
+                        "foreground": "#f58300",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.function.decorator",
+                    "settings": {
+                        "foreground": "#0003a5",
+                    }
+                },
+                {
+                    "scope": "entity.name.type.class",
+                    "settings": {
+                        "foreground": "#0003a5",
+                        "fontStyle": "bold"
                     }
                 },
                 {
                     "scope": "support.function.magic",
                     "settings": {
-                        "foreground": "#f57200",
+                        "foreground": "#f58300",
                         "fontStyle": "italic"
                     }
                 },
@@ -43,7 +58,7 @@
                     }
                 },
                 {
-                    "scope": "variable.other.constant",
+                    "scope": "constant.other.caps.python",
                     "settings": {
                         "foreground": "#458900e2",
                     }
@@ -57,25 +72,25 @@
                 {
                     "scope": "variable.parameter.function.language.special.self",
                     "settings": {
-                        "foreground": "#d17000"
+                        "foreground": "#bc0000"
                     }
                 },
                 {
                     "scope": "variable.language.special.self",
                     "settings": {
-                        "foreground": "#d17000"
+                        "foreground": "#bc0000"
                     }
                 },
                 {
-                    "scope": "entity.name.function.decorator",
+                    "scope": "meta.function-call.generic",
                     "settings": {
-                        "foreground": "#0003a5"
+                        "foreground": "#f57200"
                     }
                 },
                 {
-                    "scope": "entity.name.type.class",
+                    "scope": "meta.attribute.python",
                     "settings": {
-                        "foreground": "#0003a5"
+                        "foreground": "#0043c0"
                     }
                 },
                 {
@@ -88,12 +103,6 @@
                     "scope": "storage.type.function.python",
                     "settings": {
                         "foreground": "#ad0c0c"
-                    }
-                },
-                {
-                    "scope": "meta.attribute",
-                    "settings": {
-                        "foreground": "#0003a5"
                     }
                 },
                 {
@@ -110,15 +119,16 @@
                     }
                 },
                 {
-                    "scope": "constant.numeric.dec.python",
+                    "scope": "keyword.codetag.notation.python",
                     "settings": {
                         "foreground": "#ad0c0c",
                     }
                 },
                 {
-                    "scope": "keyword.codetag.notation.python",
+                    "scope": "keyword.operator.comparison.python",
                     "settings": {
                         "foreground": "#ad0c0c",
+                        "fontStyle": "bold"
                     }
                 },
                 {
@@ -130,7 +140,55 @@
                 {
                     "scope": "string",
                     "settings": {
-                        "foreground": "#a55800d4"
+                        "foreground": "#bc6400"
+                    }
+                },
+                {
+                    "scope": "support.type",
+                    "settings": {
+                        "foreground": "#e00000"
+                    }
+                },
+                {
+                    "scope": "constant.language",
+                    "settings": {
+                        "foreground": "#e00000",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.numeric.dec.python",
+                    "settings": {
+                        "foreground": "#e00000",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.arguments",
+                    "settings": {
+                        "foreground": "#02000090",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.parameters",
+                    "settings": {
+                        "foreground": "#02000090",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.section.function",
+                    "settings": {
+                        "foreground": "#02000090",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.section.class",
+                    "settings": {
+                        "foreground": "#02000090",
+                        "fontStyle": "bold"
                     }
                 },
             ]
@@ -138,3 +196,4 @@
     },
     "workbench.colorTheme": "Solarized Light"
 }
+
